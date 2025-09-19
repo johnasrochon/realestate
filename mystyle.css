@@ -1,0 +1,21 @@
+/* global */
+* {
+    margin: 0
+}
+
+body {
+    font-family: arial;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    background-image: url(realEstate-img-main/realEstate-img-main/header.jpg);
+    height: 300px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
