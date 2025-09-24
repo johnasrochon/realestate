@@ -1,21 +1,141 @@
 /* global */
-* {
-    margin: 0
+body{
+    font-family: Arial;
 }
-
-body {
-    font-family: arial;
+img{
+    max-width: 100%;
 }
-
-a {
+p{
+    line-height: 2;
+    
+}
+a{
+    color:white;
     text-decoration: none;
-    color: white;
 }
 
-header{
+.header-init{
     background-image: url(realEstate-img-main/realEstate-img-main/header.jpg);
-    height: 300px;
+    height: 350px;
     background-size: cover;
     color: white;
     text-align: center;
 }
+
+img{
+
+    max-width: 100%;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+
+  button{
+
+    display: block;
+    background-color: orange;
+    
+}
+
+
+
+.field{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+/*houses*/
+
+.houses-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.house-item-img{
+
+    background-color: aliceblue;
+}
+
+.section{
+
+    display: flex;
+}
+
+.icons-list{
+
+    display: flex;
+}
+
+/*contact*/
+
+.header-contact{
+    background-color: orange;
+    height: 150px;
+}
+
+.contact-txt{
+    text-align: center;
+}
+
+form{
+    width: 80%;
+    margin: 50px auto;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+fieldset{
+
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.input-container{
+    margin: 20px;
+}
+
+.input-container label{
+    display: inline-block;
+    width: 100px;
+
+}
+
+.input-container input
+.input-container textarea{
+    width: 80px;
+    padding: 5px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.cr-links{
+    display: flex;
+}
+
+.pp{
+    border-left: 3px solid black;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.sm a{
+    margin-right: 10px;
+    color: black;
+}
+
+
+
+              

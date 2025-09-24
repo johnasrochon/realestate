@@ -1,0 +1,61 @@
+h1 {color:blue;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+p {
+    background-color: yellow;
+    padding: 20px;
+    font-weight: bold;
+}
+
+/* flex-start */
+.flex-container-row-start {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+/*flex-center*/
+.flex-container-row-center {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6px;
+}
+
+/* flex-end */
+.flex-container-row-end {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 12px;
+}
+
+/* flex-between */
+.flex-container-row-end {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+/* flex-around */
+.flex-container-row-between {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* flex-evenly */
+.flex-container-row-between {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
